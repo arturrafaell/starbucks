@@ -38,7 +38,7 @@ header .line {
 
 .header--search input {
     font-size: 16px;
-    padding: 10px 14px;
+    padding: 10px 1px;
     border: 1px solid #b3b3b3;
     outline: 0;
     width: 100%;
