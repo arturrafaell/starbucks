@@ -15,6 +15,19 @@ header .line {
     margin: auto;
 }
 
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    line-height: 50px; 
+}
+
+.bar {
+    background-color: #117050;
+    width: 168px;
+    height: 22px;
+}
+
 .header--area {
     display: flex;
     justify-content: space-between;
@@ -103,16 +116,21 @@ header .line {
 }
 
 .area1--content {
-
+    padding: 100px;
 }
 
 .area1--img1 {
     background-image: url('../images/f2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
     
 }
 
 .area1--img2 {
     background-image: url('../images/f1.jpg');
+    background-size: cover;
+    background-position: center;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
 }
